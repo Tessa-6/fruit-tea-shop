@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>茶包小铺 · 办公室花果茶包礼盒</title>
+  <meta name="description" content="茶包小铺——课堂作业模拟店铺，健康低糖花果茶包，独立包装，适合下午茶与企业团购。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 顶部导航栏 ===== -->
+  <header class="navbar" id="top">
+    <div class="nav-inner">
+      <a class="brand" href="#home">🍵 茶包小铺</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">首页</a>
+        <a href="#products">商品</a>
+        <a href="#story">品牌故事</a>
+        <a href="#faq">售后问答</a>
+      </nav>
+
+      <button class="cart-btn" id="cartBtn" aria-label="打开购物车">
+        🛒 <span class="cart-text">购物车</span>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 首页横幅 Hero ===== -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-badge">课堂作业模拟店铺 · 非真实销售</p>
+          <h1>办公室下午茶，<br>一盒刚刚好</h1>
+          <p class="hero-sub">低糖花果茶包，独立包装，随手泡一杯</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#products">立即选购</a>
+            <a class="btn btn-outline" href="#story">了解品牌</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card">
+            <div class="hero-card-tea">🫖</div>
+            <div class="hero-card-row">
+              <span class="tea-emoji">🌹</span>
+              <span class="tea-emoji">🍊</span>
+              <span class="tea-emoji">🍎</span>
+              <span class="tea-emoji">🫐</span>
+            </div>
+            <p class="hero-card-text">花果茶包礼盒 · 20 包/盒</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 卖点区 ===== -->
+    <section class="features section">
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📦</div>
+          <h3>独立包装，干净方便</h3>
+          <p>每包独立密封，随取随泡，抽屉里放一盒不占地。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🍃</div>
+          <h3>低糖配方，办公室友好</h3>
+          <p>轻负担低糖配比，下午提神不腻口。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🗓️</div>
+          <h3>18 个月保质期</h3>
+          <p>囤货无忧，阴凉干燥处保存即可。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤝</div>
+          <h3>支持企业团购</h3>
+          <p>整箱分享装，支持模拟下单团购流程。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 商品列表区 ===== -->
+    <section class="section" id="products">
+      <h2 class="section-title">人气茶包</h2>
+      <p class="section-sub">低糖花果茶，独立包装，适合下午茶和企业团购</p>
+      <div class="product-grid" id="productGrid">
+        <!-- 商品卡片由 JS 渲染 -->
+      </div>
+    </section>
+
+    <!-- ===== 品牌故事区 ===== -->
+    <section class="section story" id="story">
+      <h2 class="section-title">关于茶包小铺</h2>
+      <div class="story-card">
+        <p>
+          我们想做一款适合办公室场景的轻负担花果茶：独立包装、冲泡简单、适合分享。
+          不用茶则、不用茶壶，一包、一杯、一壶 85℃ 热水，三分钟后就是一段小小的下午茶时光。
+          低糖配方，喝得舒服，分给同事也不心疼。
+        </p>
+        <p class="story-note">本网站为课堂作业模拟项目，商品与订单均为模拟。</p>
+      </div>
+    </section>
+
+    <!-- ===== 用户评价区 ===== -->
+    <section class="section reviews">
+      <h2 class="section-title">他们怎么说</h2>
+      <div class="review-grid">
+        <div class="review-card">
+          <p class="review-text">“包装很清爽，办公室下午泡一杯很方便。”</p>
+          <p class="review-author">—— 行政部 小林</p>
+        </div>
+        <div class="review-card">
+          <p class="review-text">“独立小包适合分享，回购了。”</p>
+          <p class="review-author">—— 设计组 阿远</p>
+        </div>
+        <div class="review-card">
+          <p class="review-text">“送同事当小礼物不错。”</p>
+          <p class="review-author">—— 财务部 周周</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 售后问答 FAQ ===== -->
+    <section class="section" id="faq">
+      <h2 class="section-title">售后问答</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>保质期多久？</summary>
+          <p>本系列花果茶包保质期为 18 个月，请置于阴凉干燥处，避免阳光直射。</p>
+        </details>
+        <details class="faq-item">
+          <summary>怎么冲泡？</summary>
+          <p>取 1 包茶包放入杯中，注入约 200ml 的 85℃ 热水，浸泡 3–5 分钟即可饮用，可按口味回冲一次。</p>
+        </details>
+        <details class="faq-item">
+          <summary>支持退换吗？</summary>
+          <p>本站为课堂作业模拟店铺，不产生真实交易，因此不支持真实售后与退换，页面流程仅供演示。</p>
+        </details>
+        <details class="faq-item">
+          <summary>可以企业团购吗？</summary>
+          <p>可以。选择「办公室分享装」加入购物车并提交模拟订单即可，团购流程同样为课堂演示，不会真实扣款。</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="footer">
+    <p class="footer-brand">🍵 茶包小铺</p>
+    <p>模拟客服邮箱：<a href="mailto:demo@teabag.example">demo@teabag.example</a></p>
+    <p>© 2026 茶包小铺 · 课堂作业项目</p>
+    <p class="footer-note">本站为课堂作业模拟店铺，不产生真实交易。</p>
+  </footer>
+
+  <!-- ===== 商品详情弹窗 ===== -->
+  <div class="modal-mask" id="detailModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+      <button class="modal-close" data-close="detailModal" aria-label="关闭">✕</button>
+      <div class="modal-body" id="detailBody"><!-- JS 渲染 --></div>
+    </div>
+  </div>
+
+  <!-- ===== 购物车抽屉 ===== -->
+  <div class="drawer-mask" id="cartDrawer" hidden>
+    <aside class="drawer" role="dialog" aria-modal="true" aria-label="购物车">
+      <div class="drawer-head">
+        <h3>🛒 我的购物车</h3>
+        <button class="modal-close" data-close="cartDrawer" aria-label="关闭购物车">✕</button>
+      </div>
+      <div class="drawer-body" id="cartItems"><!-- JS 渲染 --></div>
+      <div class="drawer-foot" id="cartFoot"><!-- JS 渲染 --></div>
+    </aside>
+  </div>
+
+  <!-- ===== 结算弹窗 ===== -->
+  <div class="modal-mask" id="checkoutModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <button class="modal-close" data-close="checkoutModal" aria-label="关闭">✕</button>
+      <h3 id="checkoutTitle">模拟结算</h3>
+      <p class="checkout-tip">课堂演示流程，不会调用真实支付接口。</p>
+      <form id="checkoutForm" novalidate>
+        <label>姓名
+          <input type="text" id="coName" placeholder="请输入收货人姓名" autocomplete="name">
+        </label>
+        <label>电话
+          <input type="tel" id="coPhone" placeholder="请输入联系电话" autocomplete="tel">
+        </label>
+        <label>地址
+          <input type="text" id="coAddr" placeholder="请输入收货地址" autocomplete="street-address">
+        </label>
+        <p class="form-error" id="formError" hidden></p>
+        <button type="submit" class="btn btn-primary btn-block">提交订单并模拟支付</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== 支付成功弹窗 ===== -->
+  <div class="modal-mask" id="successModal" hidden>
+    <div class="modal modal-success" role="dialog" aria-modal="true">
+      <div class="success-icon">✅</div>
+      <h3>模拟支付成功，订单已提交</h3>
+      <p>感谢体验茶包小铺演示流程，购物车已清空。</p>
+      <button class="btn btn-primary" data-close="successModal">好的</button>
+    </div>
+  </div>
+
+  <!-- ===== 轻提示 Toast ===== -->
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
